@@ -129,8 +129,8 @@ class FactionCommand extends BaseCommand
         //$this->registerSubCommand(new TruceSubCommand($this->plugin, "truce", "Truce with other factions"));
         //$this->registerSubCommand(new UnallySubCommand($this->plugin, "unally", "End faction alliance"));
         $this->registerSubCommand(new UnbanSubCommand($this->plugin, "unban", "Unban a member from your faction"));
-        $this->registerSubCommand(new UnclaimSubCommand($this->plugin, "unclaim", "Unclaim a chunk"));
-        $this->registerSubCommand(new UnsetHomeSubCommand($this->plugin, "unsethome", "Unset faction home", ["delhome"]));
+        //$this->registerSubCommand(new UnclaimSubCommand($this->plugin, "unclaim", "Unclaim a chunk"));
+        //$this->registerSubCommand(new UnsetHomeSubCommand($this->plugin, "unsethome", "Unset faction home", ["delhome"]));
         $this->registerSubCommand(new VersionSubCommand($this->plugin, "version", "Display version & credits for PiggyFactions", ["v", "ver"]));
         if ($this->plugin->isFactionBankEnabled()) $this->registerSubCommand(new WithdrawSubCommand($this->plugin, "withdraw", "Withdraw money from faction bank"));
     }

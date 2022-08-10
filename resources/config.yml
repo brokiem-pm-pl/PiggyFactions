@@ -21,7 +21,7 @@ factions:
     - admin
     - mojang
   max-name-length: 16
-  max-players: 50
+  max-players: 20
   pvp:
     factionless: true
     between-factionless: true
@@ -32,7 +32,7 @@ factions:
     per:
       death: -2
       kill: 1
-      hour: 2
+      hour: 0
   homes:
     within-territory: true
     teleport-on-death: true
@@ -47,7 +47,7 @@ factions:
       truce: []
       ally: []
     overclaim: true
-    cost: 1
+    cost: 11
     max: -1
     shield-factor: 0.1
 languages:

@@ -9,7 +9,7 @@ database:
     schema: "piggyfactions"
   worker-limit: 1
 economy:
-  enabled: false
+  enabled: true
   provider: bedrockeconomy
   faction-bank:
     enabled: true
